@@ -24,3 +24,5 @@ The statistics are identical (see `1.log` and `2.log`).
 
 
 ## 3
+
+See `3.m`.
