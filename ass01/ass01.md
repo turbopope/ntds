@@ -13,3 +13,11 @@ See `1.m` and `compute_statistics.md`.
 
 
 ## 2
+
+See `2.m` for the code.
+
+They are not identical. `sparse` converts the input matrix to a matrix of vectors pointing to the values where the elements of the vectors are the indices of the input matrix. See function `load_sparse_adj`.
+
+`nnz` returns the number of non-zero elements in the matrix, i.e. the number of directed edges (half of which is the number of edges/volume of the network).
+
+The statistics are identical (see `1.log` and `2.log`).
