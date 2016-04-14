@@ -1,4 +1,4 @@
-function result = compute_statistics(A)
+function [size, volume] = compute_statistics(A)
   result = 0;
   for i = 1:rows(A)
     for j = 1:columns(A)
@@ -7,5 +7,7 @@ function result = compute_statistics(A)
       endif
     endfor
   endfor
-  result = result / 2;
+  volume = result / 2;
+  size = size(A)(1);
+  return;
 endfunction
