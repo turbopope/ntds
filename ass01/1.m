@@ -2,7 +2,7 @@ A = load("double-house.txt")
 
 dimensions = size(A) % the dimensions of the adjacency-matrix, i.e. the number of nodes
 
-function result = volume(A)
+function result = compute_statistics(A)
   result = 0;
   for i = 1:rows(A)
     for j = 1:columns(A)
@@ -14,4 +14,4 @@ function result = volume(A)
   result = result / 2;
 endfunction
 
-volume = volume(A)
+volume = compute_statistics(A)
