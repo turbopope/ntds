@@ -1,6 +1,6 @@
 A = load("double-house.txt")
 
-dimensions = size(A) % the dimensions of the adjacency-matrix, i.e. the number of nodes
+dimensions = size(A)
 
 function result = compute_statistics(A)
   result = 0;

@@ -9,5 +9,7 @@
 
 See `1.m`.
 
+`size` returns the dimensions of the adjacency-matrix, i.e. the number of nodes.
+
 
 ## 2
