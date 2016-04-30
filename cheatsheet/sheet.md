@@ -20,7 +20,7 @@ Node H will be ignored if the metric requires a connected graph.
 
 | Name  | Symbol | Definition | Formal Description | Verbal Description | Example |
 | ----- | ------ | ---------- | ------------------ | ------------------ | ------- |
-| Distance | $d(u,v)$ |
+| Distance | $d(u,v)$ | | Length (number of edges) of shortest path between $u$ and $v$ | Minimal number of edges between $u$ and $v$ | $d(L,B)=2$
 | Degree |
 | Betweenness
 | Closeness
