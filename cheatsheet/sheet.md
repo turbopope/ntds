@@ -7,8 +7,8 @@ Node H will be ignored if the metric requires a connected graph.
 
 ## Graph Metrics
 
-| Name       | Symbol         | Formal Description        | Verbal Description               | Definition              |
-| ---------- | -------------- | ------------------------- | -------------------------------- | ----------------------- |
+| Name  | Symbol | Definition | Formal Description | Verbal Description | Example |
+| ----- | ------ | ---------- | ------------------ | ------------------ | ------- |
 
 
 
