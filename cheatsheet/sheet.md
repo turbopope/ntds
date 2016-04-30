@@ -2,14 +2,14 @@
 
 ![Some Graph $G$](graph-labeled.png)
 
-This is graph $EX$. Node H will be ignored if the metric requires a connected graph.
+This is graph $EX$. Node H will be ignored if the metric requires a connected graph. A *path* is defined as the shortest connection between two nodes.
 
 
 ## Graph Metrics
 
 | Name  | Symbol | Definition | Formal Description | Verbal Description | Example |
 | ----- | ------ | ---------- | ------------------ | ------------------ | ------- |
-| Diameter | $\delta$ | $\delta = max_{u\in V}\epsilon(u) = max_{u,v \in V}d(u,v)$ | Maximum distance in graph | Longest shortest path in graph | $\delta(EX) = d(C, O) = \epsilon(C) = 4$ |
+| Diameter | $\delta$ | $\delta = max_{u\in V}\epsilon(u) = max_{u,v \in V}d(u,v)$ | Maximum distance in graph | Longest path in graph | $\delta(EX) = d(C, O) = \epsilon(C) = 4$ |
 | Radius   | $r$ | $r = min_{u\in V}\epsilon(u) = min_{u\in V}max_{v\in V}d(u,v)$ | | Shortest longest path in graph | $r(EX) = d(G,C) = \epsilon(G) = 2$ |
 
 
@@ -22,7 +22,7 @@ This is graph $EX$. Node H will be ignored if the metric requires a connected gr
 
 | Name  | Symbol | Definition | Formal Description | Verbal Description | Example |
 | ----- | ------ | ---------- | ------------------ | ------------------ | ------- |
-| Distance             | $d(u,v)$ | | Length (number of edges) of shortest path between $u$ and $v$ | Minimal number of edges between $u$ and $v$ | $d(L,B)=2$
+| Distance             | $d(u,v)$ | | Length (number of edges) of path between $u$ and $v$ | Minimal number of edges between $u$ and $v$ | $d(L,B)=2$
 | Degree               |
 | Betweenness          |
 | Closeness            |
