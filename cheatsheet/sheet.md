@@ -23,7 +23,7 @@ This is graph $EX$. Node H will be ignored if the metric requires a connected gr
 | Name  | Symbol | Definition | Formal Description | Verbal Description | Example |
 | ----- | ------ | ---------- | ------------------ | ------------------ | ------- |
 | Distance             | $d(u,v)$ | | Length (number of edges) of path between $u$ and $v$ | Minimal number of edges between $u$ and $v$ | $d(L,B)=2$
-| Degree               |
+| Degree               | | | | Number of neighbors of a node | | 
 | Betweenness          | | | | Number of paths that go through a node | |
 | Closeness            |
 | Closeness Centrality | $C(u)$ |$\frac{1}{n}\sum_{v \in V}d(u,v)$ |  | Avg. distance to all nodes | $C(G) = \frac{14}{15}$ |
