@@ -25,4 +25,4 @@ Node H will be ignored if the metric requires a connected graph.
 | Betweenness
 | Closeness
 | Closeness Centrality | $C(u)$ |$\frac{1}{n}\sum_{v \in V}d(u,v)$ |  | Avg. distance to all nodes | $C(G) = \frac{14}{15}$ |
-| Eccentricity
+| Eccentricity | $\epsilon(u)$ | $max_{v\in V}d(u,v)$ | | Distance to most distant node | $\epsilon(C)=4$ (Distance to $O$)
